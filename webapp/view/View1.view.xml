@@ -1,0 +1,21 @@
+<mvc:View
+    controllerName="texttospeech.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content >
+                        <Input id="idInp"></Input>
+                        <Button icon="sap-icon://attachment-audio" press="onPress"></Button>
+                    </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
+
